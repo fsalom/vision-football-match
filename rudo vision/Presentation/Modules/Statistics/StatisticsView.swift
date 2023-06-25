@@ -28,18 +28,19 @@ struct StatisticView: View {
     var body: some View {
         HStack(alignment: .top) {
             VStack(alignment: .leading) {
-                Image("footballer")
+                Image(.erling)
                     .resizable()
                     .aspectRatio(contentMode: .fill)
-                    .background(.blue)
+                    .background(.white)
                     .frame(width: 300, height: 300)
                     .clipShape(RoundedRectangle(cornerRadius: 20))
                 
-                Text("Joaquín Sanchez").font(.largeTitle)
-                Text("Real Betis Balonpie")
-                Text("Centrocampista")
-                Text("41 años")
-                Text("🇪🇸").font(.largeTitle)
+                Text("Erling").font(.headline)
+                Text("Haland").font(.extraLargeTitle)
+                Text("Mancherster city")
+                Text("Delantero")
+                Text("21 años")
+                Text("🇳🇴").font(.largeTitle)
             }.padding(20)
                 .background(.blue)
                 .foregroundColor(.white)
@@ -47,10 +48,9 @@ struct StatisticView: View {
             VStack {
                 VStack(alignment: .leading) {
                     Text("Estadísticas temporada").font(.largeTitle)
-                    Text("Principales estadísticas")
                     HStack {
                         VStack {
-                            Text("10").font(.largeTitle)
+                            Text("84").font(.largeTitle)
                             Text("Partidos")
                         }.padding(15)
                             .frame(width: 150)
@@ -58,7 +58,7 @@ struct StatisticView: View {
                             .foregroundColor(.blue)
                             .clipShape(RoundedRectangle(cornerRadius: 20))
                         VStack {
-                            Text("5").font(.largeTitle)
+                            Text("80").font(.largeTitle)
                             Text("Goles")
                         }.padding(15)
                             .frame(width: 150)
@@ -66,7 +66,7 @@ struct StatisticView: View {
                             .foregroundColor(.blue)
                             .clipShape(RoundedRectangle(cornerRadius: 20))
                         VStack {
-                            Text("12").font(.largeTitle)
+                            Text("14").font(.largeTitle)
                             Text("Asistencias")
                         }.padding(15)
                             .frame(width: 150)
@@ -79,12 +79,11 @@ struct StatisticView: View {
                     .foregroundColor(.white)
                     .clipShape(RoundedRectangle(cornerRadius: 20))
                 VStack(alignment: .leading) {
-                    Text("Histórico vs Valencia").font(.largeTitle)
-                    Text("Principales estadísticas")
+                    Text("Estadísticas partido").font(.largeTitle)
                     HStack {
                         VStack {
-                            Text("5").font(.largeTitle)
-                            Text("Partidos")
+                            Text("78").font(.largeTitle)
+                            Text("Minutos")
                         }.padding(15)
                             .frame(width: 150)
                             .background(.white)
@@ -99,7 +98,7 @@ struct StatisticView: View {
                             .foregroundColor(.blue)
                             .clipShape(RoundedRectangle(cornerRadius: 20))
                         VStack {
-                            Text("4").font(.largeTitle)
+                            Text("1").font(.largeTitle)
                             Text("Asistencias")
                         }.padding(15)
                             .frame(width: 150)
