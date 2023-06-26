@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct rudo_visionApp: App {
+struct VisionApp: App {
     var body: some Scene {
         WindowGroup {
             HomeView()
